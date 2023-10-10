@@ -1,0 +1,19 @@
+div {
+    width: 500px;
+    border: 2px solid red;
+}
+
+div p {
+    text-align: center;
+    color: chartreuse;
+}
+
+div, p {
+    text-align: center;
+    color: chartreuse;
+}   
+
+div > p {
+    text-align: center;
+    color: chartreuse;
+}
